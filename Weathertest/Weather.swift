@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Weather : {
+
+struct Weather  {
     
     let summary : String
     let icon: String
