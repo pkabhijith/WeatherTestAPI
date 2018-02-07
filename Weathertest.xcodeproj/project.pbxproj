@@ -12,6 +12,7 @@
 		E2FD285520295CFF00C921ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD285320295CFF00C921ED /* Main.storyboard */; };
 		E2FD285720295CFF00C921ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD285620295CFF00C921ED /* Assets.xcassets */; };
 		E2FD285A20295CFF00C921ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD285820295CFF00C921ED /* LaunchScreen.storyboard */; };
+		E2FD286220295D1200C921ED /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD286120295D1200C921ED /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2FD285620295CFF00C921ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FD285920295CFF00C921ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FD285B20295CFF00C921ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FD286120295D1200C921ED /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E2FD284F20295CFF00C921ED /* AppDelegate.swift */,
+				E2FD286120295D1200C921ED /* Weather.swift */,
 				E2FD285120295CFF00C921ED /* ViewController.swift */,
 				E2FD285320295CFF00C921ED /* Main.storyboard */,
 				E2FD285620295CFF00C921ED /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FD285220295CFF00C921ED /* ViewController.swift in Sources */,
+				E2FD286220295D1200C921ED /* Weather.swift in Sources */,
 				E2FD285020295CFF00C921ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				E2FD286020295CFF00C921ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
